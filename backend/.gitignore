@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Build output (if any)
+dist/
+build/
+
+# OS generated files
+*.swp
+*.swo
+
+# Optional: local MongoDB data dumps or test uploads
+dump/
+uploads/

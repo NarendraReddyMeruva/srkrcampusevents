@@ -28,7 +28,7 @@ const AboutPage = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const [activeNavItem, setActiveNavItem] = useState("");
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
 
   const { colorMode, toggleColorMode } = useColorMode();
 

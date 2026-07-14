@@ -63,6 +63,7 @@ const GalleryPage = () => {
 
   useEffect(() => { 
     fetchGallery(); 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleImageUpload = (e) => {

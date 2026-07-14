@@ -4,7 +4,7 @@ import {
   useToast, Modal, ModalOverlay, ModalContent,
   ModalHeader, ModalCloseButton, ModalBody, ModalFooter,
   Badge, Table, Thead, Tbody, Tr, Th, Td,
-  Tag, TagLabel, Spinner, useColorMode, useColorModeValue, IconButton, HStack
+  Tag, TagLabel, Spinner, useColorMode, useColorModeValue, IconButton
 } from '@chakra-ui/react';
 import { SunIcon, MoonIcon, ArrowBackIcon } from '@chakra-ui/icons';
 import { FaCheck, FaSearch, FaTicketAlt, FaQrcode } from 'react-icons/fa';
@@ -160,6 +160,7 @@ const TicketVerification = () => {
         }
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isScanning]);
 
   const getStatusBadge = (isVerified) => {

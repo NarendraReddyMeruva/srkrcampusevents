@@ -34,7 +34,6 @@ const AdminDashboard = () => {
     const color = useColorModeValue("black", "white");
     const panelBg = useColorModeValue("gray.50", "black");
     const panelBorder = useColorModeValue("gray.200", "orange.500");
-    const dividerColor = useColorModeValue("gray.300", "orange.550");
     const navBg = useColorModeValue("orange.500", "orange.600");
     const navText = useColorModeValue("black", "white");
     const cardBg = useColorModeValue("gray.100", "black");
